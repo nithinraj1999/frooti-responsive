@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+                    
+.banner img{
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+
+}                        
+.left-col{
+    height: 800px;
+    background-color:orange;
+}
+.rotate-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+      
+}
+.rotate-container img{
+    height: 50%;
+    
+}
+.text-inside{
+    position: absolute;
+    z-index: 1;
+}
+
+.footer-blocks p {
+    margin: 0;
+    padding: 0;
+}
